@@ -16,3 +16,11 @@ body{
  main {
      display: block;
  }
+
+ /*correct the font size and margin on h1 element within section and article
+  contexts in chrome. firefox and safari*/
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
