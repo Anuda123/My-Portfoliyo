@@ -24,3 +24,16 @@ h1 {
     font-size: 2em;
     margin: 0.67em 0;
 }
+
+/*grouping content*/
+
+/*1 add the correct box sizing in firefox*/
+/*2.show the overflow in edge an ie  */
+
+
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+
+}
