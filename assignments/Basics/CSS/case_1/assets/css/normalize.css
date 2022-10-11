@@ -37,3 +37,24 @@ hr {
     overflow: visible;
 
 }
+
+/*1.correct the inharitace and sacling of font size in all browsers*/
+/*2.correct the odd em font sizing in all browser*/
+
+pre{
+    font-family: monospace ,monospace;
+    font-size: 1em;
+
+}
+
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+
+a {
+    background-color: transparent;
+}
