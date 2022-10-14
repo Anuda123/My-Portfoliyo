@@ -15,7 +15,7 @@
 
 
 <h1> The site was built using github pages and 000webhost</h1>
-<h3> Github pages url : </h3>
+<h3> Github pages url : https://anuda123.github.io/My-Portfoliyo/assignments/JS/SPA/POS/index.html </h3>
 <h3> 000webhost url   : https://anuda.000webhostapp.com/ </h3>
 
 <h4>developed by Anuda lokuliyana</h4>
