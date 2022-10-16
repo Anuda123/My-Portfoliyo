@@ -1425,6 +1425,7 @@ footer > aside:last-child > p, footer > aside:last-child > p > i {
         background: url("../images/main-image.jpg");
         background-position: center;
         background-size: cover;
+        opacity: 100%;
     }
 
     .main-image > img {
