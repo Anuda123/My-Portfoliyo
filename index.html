@@ -2,366 +2,730 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My-Portfoliyo</title>
-    <link rel="icon" type="image/x-icon" href="favicon.png">
-    <!-- <base href="http://ijse.lk"> -->
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>My-Portfolio</title>
+    <link rel="icon" href="mask.png">
+    <!--    <base href="localhost">-->
+    <meta name="keywords" content="IJSE,GDSE,GDSE 60,Html,Web">
+    <meta name="description" content="IJSE,GDSE,GDSE 60,Html,Web">
+    <!--    <meta http-equiv="refresh" content="2">-->
+    <meta name="author" content="Ashan Sandeep">
+    <meta name="owner" content="Ashan Sandeep">
+    <meta name="viewport" content="width=device-width initial-scale=1 maximum-scale=3 minimum-scale=1 user-scalable=no">
+    <meta name="theme-color" content="blue">
+    <link rel="stylesheet" href="assets/fonts/css/all.min.css">
     <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+</head>
+
+<body>
 
 
-<!--    font-->
+<div id="loader">
+    <div>
+        <img src="assets/images/Spin-1s-200px.gif" alt="Loader image">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Poppins:ital@1&family=Source+Sans+Pro:wght@300&display=swap"
-          rel="stylesheet">
-    <link rel="stylesheet" href="assignments/CSS/Basics/case_2/assets/fonts/css/all.min.css">
+    </div>
+</div>
 
 
-<!--    base-->
-    <meta name="keywords" content="IJSE, GDSE, Internet technologies, GDSE 59, GDSE 60, HTML">
-    <meta name="Description" content="This is a domontration for GDSE students for learning HTML">
-    <meta name="AUTHOR" content="Institute of Software Engineering">
-    <meta name="owner" content="IJSE">
-    <meta name="viewport" content="width=device-width initial-scale=1 maximum-scale=1 minimum-scale=2 user-scalable=yes">
-    <meta name="theme-color" content="green">
+<div id="extra-div" style="width: 100%; height: 800px; position:absolute;"></div>
 
-<!--===========================anuda==================-->
 
-</head >
-<body id="yu"> <!-- section root-->
-<header >
+<header style="background-color: #5F2382">
+    <div >
+        <h1 id="gg">Portfo</h1>
+        <h1  id="hh" >lio</h1>
+    </div>
 
-    <!-- Top Bar -->
-    <aside class="top-bar">
 
-<!--        <img src="assets/images/logo-dark.png" alt="logo">-->
-            <h1 id="mul">portf</h1>
-             <h1 id="uu">lio</h1>
-        <nav >
-            <ul style="color: white" >
-                <li><a href="#home-section">Home</a></li>
-                <li><a href="#about-section">About me</a></li>
-                <li><a href="#skills-section">Gallery</a></li>
-                <li><a href="#services-section">Education</a></li>
-                <li><a href="#projects-section">Skill</a></li>
-                <li><a href="#gallery-section">Project</a></li>
-                <li><a href="#contact-section">Assignment</a></li>
-                <li><a href="#contact-section">My services</a></li>
-                <li id="dark"><i class="fa-solid fa-moon"></i></li>
-            </ul>
-        </nav>
-        <button><i class="fa-solid fa-bars"></i></button>
-    </aside>
-    <section>
+    <nav >
+        <menu>
+            <li><a href="#home_section">Home</a></li>
+            <li><a href="#about_header">About</a></li>
+            <li><a href="#education_header">Education</a></li>
+            <li><a href="#skills_header">Skills</a></li>
+            <li><a href="#project_header">Projects</a></li>
+            <li><a href="#assignment_header">Assignments</a></li>
+            <li><a href="#services_header">Services</a></li>
+            <li><a href="#activities_header">Activities</a></li>
+            <li><a href="#contact_header">Contact</a></li>
+        </menu>
+    </nav>
 
-    </section>
+
+    <button id="btn-burger">
+        <i id="burger" class="fa-solid fa-bars"></i>
+    </button>
 </header>
 
+<a href="#" id="scroll_up_btn"><i class="fa-solid fa-arrow-up"></i></a>
 
-
-
-<!--<header>-->
-<!--    <section>-->
-<!--        <section>-->
-<!--            <a href=""></a>-->
-<!--        </section>-->
-<!--        <aside></aside>-->
-<!--        <aside>-->
-<!--            <nav>-->
-<!--                <ol>-->
-<!--                    <li>Home</li>-->
-
-<!--                    <li>About me</li>-->
-<!--                    <li>Gallery</li>-->
-<!--                    <li>Education</li>-->
-<!--                    <li>Skill</li>-->
-<!--                    <li>Project</li>-->
-<!--                    <li>Assignment</li>-->
-<!--                    <li>My services</li>-->
-<!--                </ol>-->
-<!--            </nav>-->
-<!--        </aside>-->
-
-<!--    </section>-->
-<!--    <section>-->
-<!--        <aside></aside>-->
-<!--        <aside></aside>-->
-
-<!--    </section>-->
-<!--    <section>-->
-
-<!--        <aside></aside>-->
-<!--        <aside></aside>-->
-<!--    </section>-->
-
-<!--</header>-->
 <main>
+    <!-- Home -->
+    <section  id="home_section">
+<!--        style="background: url(assets/images/b2k.jpg);"-->
 
-    <!-- Home Section -->
-    <section>
+<!--        <img style="margin-left: -200px " src="assets/images/b2k.jpg" alt="My Photo" width="1024" height="900">-->
 
 
-        <dfn id="home-section"></dfn>
 
-        <!-- Description -->
-        <aside class="main-image">
+        <section >
+            <aside >
 
-            <img src="assets/images/b2k.jpg" alt="main-image">
+                <!-- Social Links -->
+                <nav id="home_social_links">
 
-            <!-- Image -->
-<!--            <div class="des-image">-->
-<!--&lt;!&ndash;                <img src="assets/images/my-image.jpeg" alt="Main Image">&ndash;&gt;-->
-<!--            </div>-->
-            <!-- Social Icons -->
-<!--            <aside class="social-icons" id="icon">-->
-<!--                <div><a href="https://twitter.com/sandun60" target="_blank"><img src="assets/images/twitter-icon.svg"-->
-<!--                                                                                 alt="twitter"></a></div>-->
-<!--                <div><a href="https://www.linkedin.com/in/sandun-induranga-1bb74a221/" target="_blank"><img-->
-<!--                        src="assets/images/linkedin-icon.svg" alt="linked in"></a></div>-->
-<!--                <div><a href="https://github.com/Sandun-Induranga" target="_blank"><img-->
-<!--                        src="assets/images/github-icon.svg" alt="github"></a></div>-->
-<!--                <div><a href="https://fb.com/sandun%20induranga" target="_blank"><img src="assets/images/fb-icon.svg"-->
-<!--                                                                                      alt="facebook"></a></div>-->
-<!--                <div><a href="https://instagram.com/sandun.induranga" target="_blank"><img-->
-<!--                        src="assets/images/inster-icon.svg" alt="instergram"></a></div>-->
-<!--            </aside>-->
-        </aside>
-
-<!--        <aside class="main-description">-->
-<!--            <h1>Hi <span><img src="assets/images/hi.png" alt="hi"></span>, there</h1>-->
-<!--            <h2>I'm Sandun Induraga</h2>-->
-<!--            <h3>Full Stack Developer</h3>-->
-<!--        </aside>-->
-
-    </section>
+                    <div  style="margin-top: -95px">
+                        <img style= "margin-left: -54px "  src="assets/images/b2k.jpg" alt="My Photo" width="1272" height="647"  >
+<!--                        -->
+                    </div>
 
 
 
 
+                    <div>
+                        <a href="https://www.facebook.com/azhan.sandeep/" target="_blank"><i
+                                class="fa-brands fa-facebook-f"></i></a>
+                    </div>
 
-<!--    =========================================================-->
-<!--    <section>-->
-<!--        <aside></aside>-->
-<!--        <aside>-->
-<!--            <section>-->
-<!--                <h1 style="    margin: 2.6700000000000017em 0;">About Me!!</h1>-->
-<!--            </section>-->
-<!--            <article>-->
-<!--                <p>M</p>-->
-<!--                <p>-->
-<!--                    y name is anuda indumal lokuliyana from srilanka.I am first year an undergraduate student at  institute of java and software engineering.I’m currently learning about software development,web development,mobile app development and internet technologies.-->
+                    <div>
+                        <a href="https://www.instagram.com/____ashan______/" target="_blank"><i
+                                class="fa-brands fa-instagram"></i></a>
+                    </div>
 
+                    <div>
+                        <a href="https://twitter.com/Ashan__Sandeep" target="_blank"><i
+                                class="fa-brands fa-twitter"></i></a>
+                    </div>
 
-<!--                </p>-->
-<!--                I hope to do a degree and master after this corse.I got my first education from palatuwa gunarathana school,then passed o/l exam and went to matara central collage for higher education-->
-<!--                <P>-->
+                    <div>
+                        <a href="https://github.com/AshanSandeep06" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
 
-<!--                </P>-->
-<!--            </article>-->
-<!--            <article>-->
-<!--                <pre>Name:  Anuda indumal lokuliyana</pre>-->
-<!--                <pre>Date of Birth:  9 september 2001</pre>-->
-<!--                <pre>Country:  srilanka</pre>-->
-<!--                <pre>Addres:  Geeganagewatha,galpamuna,palatuwa</pre>-->
-<!--                <pre>phone:  (+94)-702881592</pre>-->
-<!--                <pre>E mail:  anudalokuliyana@gmail.com</pre>-->
-<!--            </article>-->
-<!--        </aside>-->
-<!--    </section>-->
+                    <div>
+                        <a style="margin-top: 10px" href="https://www.linkedin.com/in/ashan-sandeep-248912212/" target="_blank"><i style="margin-left: 13px"
+                                class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
 
-    <section>
-        <section>
-           <h1>My Gallery</h1>
-        </section>
-
-        <section>
-        </section>
-
-        <section>
-        </section>
-    </section>
-
-    <section>
-        <section>
-             <h1>Activities</h1>
-        </section>
-
-        <section>
-        </section>
-
-        <section>
-             <h1>Education</h1>
-        </section>
-        <section>
-            <figure>
-                <img src="assents/ijse.jpg"
-                     alt="Elephant at sunset">
-                <figcaption>Studying  in IJSE | Institute of Java & Software Engineering for highre education(2021-present)</figcaption>
-            </figure>
-
-            <figure>
-                <img src="assents/palatuva.jpg"
-                     alt="Elephant at sunset">
-                <figcaption>I went to matara central collage for Advanced level (A/L)(2018-2019)</figcaption>
-            </figure>
-
-            <figure>
-                <img src="assents/mrcentral.jpg"
-                     alt="Elephant at sunset">
-                <figcaption>i went to palatuwa gunarathana central collage for ordinary level(O/L) and primary education.(2007-2017)</figcaption>
-            </figure>
-
-        </section>
-    </section>
-
-    <section>
-        <section>
-             <h1>My Skills</h1>
-        </section>
-
-        <section>
-            <h1>Language & Frameworks</h1>
-        </section>
-
-        <section>
-            <aside>
-                <h1>Java</h1>
+                </nav>
             </aside>
 
-            <aside>
-                <h1>Mysql</h1>
-            </aside>
-            <aside>
-                <h1>Css</h1>
-            </aside>
-            <aside>
-                <h1>JavaScript</h1>
-            </aside>
-            <aside>
-                <h1>Html</h1>
-            </aside>
-            <aside>
-                <h1>Hibernate</h1>
-            </aside>
-            <aside>
-                <h1>Python</h1>
-            </aside>
-        </section>
+            <section id="home_description">
+                <h1><b>Hi, I'm Anuda</b></h1>
+                <h1><b>Lokuliyana</b></h1>
 
-        <section>
-            <section>
-                <h1>Tool</h1>
+                <h3><b>Full Stack Developer</b></h3>
+                <p>Experience in developing Front end
+                    and the Back end of web development</p>
+
+                <button type="button" id="btn_Hire_Me">Hire Me</button>
             </section>
         </section>
 
         <section>
-            <h1>Technological Certificates</h1>
-        </section>
+            <!--My Photo-->
+            <div>
+                <!-- <img src="assets/images/My_Image.png" alt="My Photo" width="350" height="350">-->
 
+<!--                    <img style="margin-left: -200px " src="assets/images/b2k.jpg" alt="My Photo" width="1024" height="900">-->
 
-
-        <section>
-            <aside></aside>
-            <aside></aside>
-            <aside></aside>
-        </section>
-
-        <section>
-            <aside></aside>
-            <aside></aside>
-        </section>
-
-    </section>
-
-    <section>
-        <section>
-            <h1>My Project</h1>
-        </section>
-
-        <section>
-            <aside>
-                <h2>standalone</h2>
-            </aside>
-            <aside>
-                <h2>web</h2>
-            </aside>
-            <aside>
-                <h2>mobile</h2>
-            </aside>
-        </section>
-
-        <section>
-        </section>
-
-        <section>
+            </div>
         </section>
     </section>
+    <!-- Home -->
 
-    <section>
-        <section>
-            <h1>Assignment</h1>
+    <!-- About -->
+    <section id="about_section">
+        <!--About Me text-->
+        <section id="about_header">
+            <h1>About!!!</h1>
+            <h5>About Me</h5>
         </section>
 
-        <section>
-            <figure>
-                <img src="assents/assignment(1).jpg"
-                     alt="assignment">
-                <figcaption>Assignment 01</figcaption>
-            </figure>
-
-            <figure>
-                <img src="assents/assignment(2).jpg"
-                     alt="assignment">
-                <figcaption>Assignment 02</figcaption>
-            </figure>
-            <figure>
-                <img src="assents/assinment(3).jpg"
-                     alt="assignment">
-                <figcaption>Assignment 03</figcaption>
-            </figure>
-        </section>
-
-        <section>
-        </section>
-
-        <section>
-        </section>
-    </section>
-
-    <section>
-        <section>
-            <h1>My Services</h1>
-        </section>
         <section>
             <article>
-                <h1>Ui/UX Design</h1>
-                <p>Standalone applications design,Mobile apps,web site design.Forcused on all aspects of a products development ,including design,branding and marketing</p>
-            </article>
-            <article>
-                <h1>Full stack development</h1>
-                <p>The application designer gathers requirements from buisness systems analysts and end users.All standalone software development application are using with java ,mysql language and Hibernate framework.</p>
-            </article>
-            <article>
-                <h1>web development</h1>
-                <p>Full stack development ,ecommerce development customized web app development using with javaaScript,Css and Html.</p>
+                <!--My Photo-->
+                <div >
+                    <!--                    <img src="assets/images/My_Image.png" alt="My Photo" width="350" height="350">-->
+                </div>
 
+                <section>
+                    <!-- My Details -->
+                    <h2>Hello There, I'm Anuda</h2>
+                    <p> My name is anuda indumal lokuliyana from srilanka.
+                        I am first year an undergraduate student at  institute of java and software engineering.I’m currently learning about software development,web development,mobile app development and internet technologies<abbr
+                                title="Institute of Software Engineering"></abbr>.</p>
+
+                    <p>I hope to do a degree and master after this corse.I got my first education from palatuwa gunarathana school,then passed o/l exam and went to matara central collage for higher education.</p>
+
+                    <div style="background-color: #7b7777" id="rtyu" >
+
+
+
+                            <div >
+                                <p><i class="fa-solid fa-angle-right"></i> <strong>Name:</strong>
+                                    <span>Anuda indumal Lokuliyana</span>
+                                </p>
+                                <p><i class="fa-solid fa-angle-right"></i> <strong>Age:</strong> <span>21 years old</span>
+                                </p>
+                                <p><i class="fa-solid fa-angle-right"></i> <strong>Birthday:</strong>
+                                    <span>09 09 2001</span></p>
+                                <p><i class="fa-solid fa-angle-right"></i> <strong>Mobile:</strong>
+                                    <span>+94 702881592</span></p>
+                            </div>
+
+                            <div>
+                                <p><i class="fa-solid fa-angle-right"></i> <strong>Location:</strong>
+                                    <span>matara, SriLanka</span>
+                                </p>
+                                <p><i class="fa-solid fa-angle-right"></i> <strong>Email:</strong>
+                                    <span>anudalokuliyana@gmail.com</span></p>
+
+                            </div>
+
+
+                    </div>
+
+
+
+                    <button>Download CV
+                        <a href="#">
+                            <!--<div><img src="assets/images/Download.png" alt="download image" width="20" height="20">
+                            </div>-->
+                            <i class="fa-solid fa-download"></i>
+                        </a>
+                    </button>
+                </section>
             </article>
         </section>
     </section>
+    <!-- About -->
 
+
+    <!-- Gallery Section -->
+    <section style="margin-left: 600px">
+        <h1>Gallery!!!</h1>
+    </section>
+
+
+    <section class="gallery">
+        <dfn id="gallery-section"></dfn>
+<!--        <h1>Gallery</h1>-->
+
+        <aside>
+            <section>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </section>
+        </aside>
+
+    </section>
+
+    <!-- Education -->
+    <section id="education_section">
+        <section id="education_header">
+            <h1>Education</h1>
+            <h5><samp>My Education & Experience</samp></h5>
+        </section>
+
+        <!--Education and Work navigation links-->
+        <section>
+            <!--           <div id="btnEducation"><i class="fa-regular fa-graduation-cap"></i> Education</div>-->
+            <div id="btnEducation">
+                <i class="fa-solid fa-graduation-cap"></i>
+                Education
+            </div>
+            <div id="btnWork">
+                <i class="fa-solid fa-briefcase"></i>
+                Work
+            </div>
+        </section>
+
+        <!--Education and work Details-->
+        <section>
+
+
+            <div>
+                <img src="assets/images/EducationSvg.svg" alt="">
+            </div>
+
+        </section>
+    </section>
+    <!-- Education -->
+
+    <!-- Skills -->
+    <section id="skills_section">
+        <section id="skills_header">
+            <h1>Skills</h1>
+            <h5><samp>My Skills</samp></h5>
+        </section>
+
+        <section>
+            <!--Languages-->
+            <h2>Languages</h2>
+            <!--            <div><i class="fa-solid fa-circle-chevron-left"></i></div>-->
+            <section>
+                <div>
+                    <button><i class="fa-solid fa-circle-chevron-left"></i></button>
+                </div>
+                <div>
+                    <img src="assets/images/Python.png" alt="Python Image">
+                    <h5>Python</h5>
+                </div>
+
+                <div>
+                    <img src="assets/images/Html.png" alt="Html Image">
+                    <h5>Html</h5>
+                </div>
+
+                <div id="center_language_div">
+                    <img src="assets/images/Java.png" alt="Java Image">
+                    <h5><b>Java</b></h5>
+                </div>
+
+                <div>
+                    <img src="assets/images/JavaScript.png" alt="JavaScript Image">
+                    <h5>JavaScript</h5>
+                </div>
+
+                <div>
+                    <img src="assets/images/MYSQL.png" alt="MYSQL Image">
+                    <h5>MYSQL</h5>
+                </div>
+                <div>
+                    <button><i class="fa-solid fa-circle-chevron-right"></i></button>
+                </div>
+            </section>
+            <!--            <div><i class="fa-solid fa-circle-chevron-right"></i></div>-->
+        </section>
+
+        <section>
+            <!--Tools-->
+            <h2>Tools</h2>
+            <!--            <div><i class="fa-solid fa-circle-chevron-left"></i></div>-->
+            <section>
+                <div>
+                    <button><i class="fa-solid fa-circle-chevron-left"></i></button>
+                </div>
+
+                <div>
+                    <img src="assets/images/GitHub.png" alt="GitHub Image">
+                    <h5>GitHub</h5>
+                </div>
+
+                <div>
+                    <img src="assets/images/Intelij_Idea.png" alt="IntelliJ IDEA Image">
+                    <h5>IntelliJ IDEA</h5>
+                </div>
+
+                <div>
+                    <img src="assets/images/Figma.png" alt="Figma Image">
+                    <h5><b>Figma</b></h5>
+                </div>
+
+                <div>
+                    <img src="assets/images/Angular.png" alt="Angular Image">
+                    <h5>Angular</h5>
+                </div>
+
+                <div>
+                    <img src="assets/images/Photoshop.png" alt="Photoshop Image">
+                    <h5>Photoshop</h5>
+                </div>
+
+                <div>
+                    <button><i class="fa-solid fa-circle-chevron-right"></i></button>
+                </div>
+            </section>
+            <!--            <div><i class="fa-solid fa-circle-chevron-right"></i></div>-->
+        </section>
+    </section>
+    <!-- Skills -->
+
+    <!-- Projects -->
+    <section id="projects_section">
+        <section id="project_header">
+            <h1>Projects</h1>
+            <h5><samp>My Projects And Assignments</samp></h5>
+            <h2>Recently contributed projects I've Done</h2>
+        </section>
+
+        <!-- Projects section -->
+        <section>
+            <section id="projects-container">
+                <div>
+                    <h2>POS System</h2>
+                    <div id="firstSvgWrapper" class="svg-wrapper">
+                        <svg height="100%" width="100%">
+                            <rect class="shape1" height="100%" width="100%"/>
+                            <rect class="shape2" height="100%" width="100%"/>
+                        </svg>
+                        <p class="projects_p">1 st semester final project.
+                            POS System for Grand Highway
+                            Restaurant using Java FX and JDBC</p>
+
+                        <button id="btnPOSProject" class="projects_btn">
+                            View Project
+                            <a></a>
+                        </button>
+                    </div>
+                    <img src="assets/images/Pos_System_Project_SS.jpeg" alt="POS System">
+                </div>
+
+                <div>
+                    <h2>Hostel Management System</h2>
+                    <div id="secondSvgWrapper" class="svg-wrapper">
+                        <svg height="100%" width="100%">
+                            <rect class="shape1" height="100%" width="100%"/>
+                            <rect class="shape2" height="100%" width="100%"/>
+                        </svg>
+                        <p class="projects_p">Hostel Management System for manage student registration and fee payment
+                            process using Hibernate Framework</p>
+
+                        <button id="btnHostelProject" class="projects_btn">
+                            View Project
+                            <a></a>
+                        </button>
+                    </div>
+                    <img src="assets/images/Hostel_System_SS.jpeg" alt="Hostel Management System">
+                </div>
+
+                <div>
+                    <h2>Hotel Reservation System</h2>
+                    <div id="thirdSvgWrapper" class="svg-wrapper">
+                        <svg height="100%" width="100%">
+                            <rect class="shape1" height="100%" width="100%"/>
+                            <rect class="shape2" height="100%" width="100%"/>
+                        </svg>
+                        <p class="projects_p">Hotel Reservation System for manage rooms, customer reservations and
+                            System reports using Java FX</p>
+
+                        <button id="btnHotelReservationProject" class="projects_btn">
+                            View Project
+                            <a></a>
+                        </button>
+                    </div>
+                    <img src="assets/images/Hotel_Reservation_Project_SS.jpeg" alt="Hotel Reservation System">
+                </div>
+            </section>
+            <button id="btnProjectsViewMore">
+                View More
+                <a></a>
+            </button>
+        </section>
+
+    </section>
+    <!-- Projects -->
+
+    <!-- Assignments -->
+    <section id="assignments_section">
+        <section id="assignment_header">
+            <h1>Assignments</h1>
+            <h5><samp>My Projects And Assignments</samp></h5>
+            <h2>Recently contributed assignments I've Done</h2>
+        </section>
+
+        <section>
+            <section id="assignments-container">
+                <div>
+                    <h2>Assignment 01</h2>
+                    <div class="svg-wrapper">
+                        <svg height="100%" width="100%">
+                            <rect class="shape1" height="100%" width="100%"/>
+                            <rect class="shape2" height="100%" width="100%"/>
+                        </svg>
+                        <p class="assignments_p">CSS Layout Designing assignment</p>
+
+                        <button id="btnAssignment-01" class="assignments_btn">
+                            View Assignment
+                            <a></a>
+                        </button>
+                    </div>
+                    <img src="assets/images/CSS_Assignment-01.jpg" alt="Assignment 01">
+                </div>
+
+                <div>
+                    <h2>Assignment 02</h2>
+                    <div class="svg-wrapper">
+                        <svg height="100%" width="100%">
+                            <rect class="shape1" height="100%" width="100%"/>
+                            <rect class="shape2" height="100%" width="100%"/>
+                        </svg>
+                        <p class="assignments_p">CSS Moving Car Animation assignment</p>
+
+                        <button id="btnAssignment-02" class="assignments_btn">
+                            View Assignment
+                            <a></a>
+                        </button>
+                    </div>
+                    <img src="assets/images/Car_animation.gif" alt="Assignment 02">
+                </div>
+
+                <div>
+                    <h2>Assignment 03</h2>
+                    <div class="svg-wrapper">
+                        <svg height="100%" width="100%">
+                            <rect class="shape1" height="100%" width="100%"/>
+                            <rect class="shape2" height="100%" width="100%"/>
+                        </svg>
+                        <p class="assignments_p">Grid Layout Designing assignment</p>
+
+                        <button id="btnAssignment-03" class="assignments_btn">
+                            View Assignment
+                            <a></a>
+                        </button>
+                    </div>
+                    <img src="assets/images/CSS_GridLayout_Assignment.jpg" alt="Assignment 03">
+                </div>
+            </section>
+            <button id="btnAssignmentsViewMore">
+                View More
+                <a></a>
+            </button>
+        </section>
+    </section>
+    <!-- Assignments -->
+
+    <!-- Services -->
+    <section id="services_section">
+        <section id="services_header">
+            <h1>Services</h1>
+            <h5><samp>My Services</samp></h5>
+        </section>
+
+        <section>
+            <section>
+                <div>
+                    <!--Enterprise application-->
+                    <!--<img src="" alt="">-->
+                    <div>
+                        <i class="fa-solid fa-laptop-code"></i>
+                    </div>
+                    <h4>Enterprise Application</h4>
+                    <p>Create complex enterprise software, ensure reliable software interrogation, modernise your legacy
+                        system.</p>
+                </div>
+
+                <div>
+                    <!--Web development-->
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+                    <h4>Web Development</h4>
+                    <p>Develop any kind of web application either to conduct your business activities or to promote your
+                        business.</p>
+                </div>
+
+                <div>
+                    <!--UI UX Designing-->
+                    <div>
+                        <i class="fa-solid fa-brush"></i>
+                    </div>
+                    <h4>UI/UX Designing</h4>
+                    <p>I design UI/UX using Figma or Adobe XD for desktop applications, mobile applications and web
+                        applications.</p>
+                </div>
+
+                <div>
+                    <!--E-Commerce-->
+                    <div>
+                        <i class="fa-solid fa-hand-holding-dollar"></i>
+                    </div>
+                    <h4>E-Commerce</h4>
+                    <p>Create application platforms that buy and selling of goods and services, or the transmitting of
+                        funds
+                        or data, over an electronic network.</p>
+                </div>
+
+                <div>
+                    <!--Graphic Designing-->
+                    <div>
+                        <i class="fa-solid fa-palette"></i>
+                    </div>
+                    <h4>Graphic Designing</h4>
+                    <p>Graphic designing not only makes something look good but also organizes information to help
+                        deliver a
+                        message in the most impactful way possible.</p>
+                </div>
+
+                <div>
+                    <!--Mobile Application-->
+                    <div>
+                        <i class="fa-solid fa-mobile-screen-button"></i>
+                    </div>
+                    <h4>Mobile Application</h4>
+                    <p>Mobile app development is the
+                        process of creating software
+                        applications that run on a mobile
+                        device.</p>
+                </div>
+            </section>
+        </section>
+    </section>
+    <!-- Services -->
+
+    <!-- Activities -->
+    <section id="activities_section">
+        <section id="activities_header">
+            <h1>Activities</h1>
+            <h5><samp>My Entertainment</samp></h5>
+        </section>
+
+        <section>
+            <div>
+                <div class="DivImages"></div>
+                <p>MOVIES</p>
+            </div>
+
+            <div>
+                <div class="DivImages"></div>
+                <p>WATCHING WRESTLING</p>
+            </div>
+
+            <div>
+                <div class="DivImages"></div>
+                <p>MUSIC</p>
+            </div>
+
+            <div>
+                <div class="DivImages"></div>
+                <p>GYM</p>
+            </div>
+
+            <div>
+                <div class="DivImages"></div>
+                <p>WEB SURFING</p>
+            </div>
+        </section>
+    </section>
+    <!-- Activities -->
+
+    <!-- Contact -->
+    <section id="contact_section">
+        <section id="contact_header">
+            <h1>Contact Me</h1>
+            <h5><samp>Get connected with me</samp></h5>
+        </section>
+
+        <section>
+            <section>
+                <h3>Please Ask for Any Inquiry</h3>
+                <h4>I'M AT YOUR SERVICES</h4>
+            </section>
+
+            <section>
+                <aside>
+                    <div>
+                        <!-- <img src="assets/images/Mobile.png" alt="Mobile Image">-->
+                        <i class="fa-solid fa-phone-volume"></i>
+
+                        <div>
+                            <h4>Mobile</h4>
+                            <p>+94 765631708</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <!-- <img src="assets/images/Email.png" alt="Email Image">-->
+                        <i class="fa-sharp fa-solid fa-envelope"></i>
+
+                        <div>
+                            <h4>Email</h4>
+                            <p>ashansandeep06@gmail.com</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <!-- <img src="assets/images/Address.png" alt="Location Image">-->
+                        <i class="fa-sharp fa-solid fa-location-dot"></i>
+
+                        <div>
+                            <h4>Address</h4>
+                            <p>Galle, Sri Lanka</p>
+                        </div>
+                    </div>
+                </aside>
+
+                <!--Send Message Form-->
+                <section>
+                    <form action="#" method="post" id="contactForm">
+                        <div>
+                            <div class="contactForm_details">
+                                <label for="name">Your Name</label>
+                                <input type="text" id="name" required>
+                            </div>
+
+                            <div class="contactForm_details">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" required>
+
+                            </div>
+                        </div>
+
+                        <div class="contactForm_details">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" required>
+                        </div>
+
+                        <div class="contactForm_details">
+                            <label for="message">Message</label>
+                            <textarea type="text" id="message" spellcheck="true" required></textarea>
+                        </div>
+
+                        <div>
+                            <button type="submit" id="sendMessageBtn">
+                                Send Message
+                                <i class="fa-solid fa-arrow-up-from-bracket"></i>
+                            </button>
+                        </div>
+                    </form>
+                </section>
+            </section>
+
+        </section>
+    </section>
+    <!-- Contact -->
 </main>
-<footer>
-    <section>
-    </section>
-    <section>
-        <aside></aside>
-        <aside></aside>
-    </section>
-    <section>
-    </section>
-    <address>   </address>
-</footer><!-- section root-->
 
+<footer>
+    <!--Social media links-->
+    <nav>
+        <menu>
+            <li><a href="https://www.facebook.com/azhan.sandeep/" target="_blank"><i
+                    class="fa-brands fa-facebook-f"></i></a></li>
+            <li><a href="https://www.instagram.com/____ashan______/" target="_blank"><i
+                    class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="https://twitter.com/Ashan__Sandeep" target="_blank"><i
+                    class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="https://github.com/AshanSandeep06" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </li>
+            <li><a href="https://www.linkedin.com/in/ashan-sandeep-248912212/" target="_blank"><i
+                    class="fa-brands fa-linkedin-in"></i></a></li>
+        </menu>
+    </nav>
+
+    <aside>
+        <h1>Ashan</h1>
+        <h1>Sandeep</h1>
+        <h5>Full Stack Developer</h5>
+    </aside>
+
+    <div>
+        <i class="fa-regular fa-copyright"></i>
+        <small>Copyright 2022 Ashan Sandeep. All Rights Reserved.</small>
+    </div>
+</footer>
+
+<script src="assets/js/jquery-3.6.1.min.js"></script>
+<script src="assets/js/script.js"></script>
 </body>
+
 </html>

@@ -2,7 +2,7 @@
 /shelf/
 /workspace.xml
 # Datasource local storage ignored files
-/../../../../../:\GDSE60\Internet-technologies\My-Portfoliyo\.idea/dataSources/
+/../../../../:\GDSE60\Internet-technologies\.idea/dataSources/
 /dataSources.local.xml
 # Editor-based HTTP Client requests
 /httpRequests/
