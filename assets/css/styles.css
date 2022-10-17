@@ -1051,6 +1051,11 @@ main > section#education_section > section:nth-child(3) > div:first-child {
     justify-content: center;
     flex-wrap: wrap;
 }
+/*#ggg{*/
+/*    margin-top: -1250px;*/
+/*    margin-left: -61px;*/
+/*    width: 340px;*/
+/*}*/
 
 main > section#education_section > section:nth-child(3) > div:first-child > img {
     width: 100%;
@@ -3383,6 +3388,7 @@ main > section#services_section > section:nth-child(2) > section > div:hover {
     margin: auto;
 }*/
 
+
 #projects-container > div > h2 {
     margin-top: 43px;
     font-size: 21px;
@@ -3533,6 +3539,21 @@ main > section#services_section > section:nth-child(2) > section > div:hover {
     margin: auto;
     border-radius: 0.5rem;
 }
+#btntest{
+    background-color: red;
+    color: white;
+
+    position: absolute;
+    /*top: 0;*/
+    /*right: 0;*/
+    /*left: 0;*/
+    /*bottom: 0;*/
+    margin: auto;
+    border-radius: 0.5rem;
+    border-color: white;
+
+
+}
 
 /* Media Queries */
 @media all and (min-width: 1415px) and (max-width: 1520px) {
@@ -3571,7 +3592,7 @@ main > section#services_section > section:nth-child(2) > section > div:hover {
     }
 
     #assignments-container > div {
-        width: 370px;
+        width: 355px !important;
         height: 395px;
     }
 }
