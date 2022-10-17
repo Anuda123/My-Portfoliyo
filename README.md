@@ -36,8 +36,7 @@
 
 💻 Project URL : https://anuda123.github.io/My-Portfoliyo/assignments/JS/SPA/POS/index.html
 
-
-000web :          https://anuda.000webhostapp.com/
+🎯 000web      :  https://anuda.000webhostapp.com/
 
 *Technologies*
 * Html
