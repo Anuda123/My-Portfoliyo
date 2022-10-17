@@ -35,6 +35,8 @@
 🏝 Mock-up URL :  https://www.figma.com/file/CFCZu3luAajPbFo1mtv5jc/Untitled?node-id=1%3A2
 
 💻 Project URL : https://anuda123.github.io/My-Portfoliyo/assignments/JS/SPA/POS/index.html
+
+
 000web :          https://anuda.000webhostapp.com/
 
 *Technologies*
